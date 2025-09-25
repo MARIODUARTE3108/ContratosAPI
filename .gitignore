@@ -1,0 +1,97 @@
+# -------- SOs --------
+# macOS / Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------- IDEs --------
+# Visual Studio
+.vs/
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+# Rider
+.idea/
+
+# -------- Build / Binários --------
+bin/
+obj/
+out/
+artifacts/
+TestResults/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# -------- Logs / Temp --------
+*.log
+*.tlog
+*.cache
+*.tmp
+*.temp
+*.ncrunchsolution
+*.localhistory/
+
+# -------- NuGet --------
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+.nuget/
+# cache global (apenas por segurança; geralmente fora do repo)
+# ~/.nuget/
+
+# -------- Roslyn / Analyzers --------
+*.ruleset
+*.sarif
+
+# -------- Configs locais / Secretos --------
+# User Secrets (não commitar secrets.json)
+**/secrets.json
+# Variáveis de ambiente
+.env
+.env.*
+*.env
+*.env.*
+
+# -------- ASP.NET / Hosting --------
+# Certificados de dev (geralmente fora do repo, mas por via das dúvidas)
+*.pfx
+# Publicações locais
+publish/
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# -------- Entity Framework --------
+# Migrations devem SER versionadas! (não ignore Persistence/Migrations)
+# Se você gerar snapshots temporários, ignore-os aqui:
+# **/Migrations/obj/
+
+# -------- Front-end dentro do repo (se houver) --------
+node_modules/
+dist/
+build/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+# (mantenha package-lock.json/yarn.lock/pnpm-lock.yaml conforme sua política)
+
+# -------- Bancos locais / arquivos de dados --------
+*.db
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+# Se você quer manter um banco “seed” de demo, remova o arquivo específico da lista acima
+# !data/seed.db
+
+# -------- Outros --------
+# Arquivos gerados por ferramentas
+*.generated.cs
+*.AssemblyInfo.cs
+# Backups do editor
+*~
