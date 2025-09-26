@@ -180,3 +180,5 @@ app.MapControllers();
 // MUITO IMPORTANTE: não force porta no App Service Windows.
 // Deixe o IIS/ANCM gerenciar a porta.
 app.Run();
+public partial class Program { }
+
